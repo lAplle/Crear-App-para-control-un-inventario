@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <title>ICV</title>
+</head>
+<body style="text-align: center;">
+    <h1>Control de inventario de productos</h1>
+    <div id="formulario">
+        <label for="nombre">Nombre del  producto: </label><br>
+        <input id="nombre" type="text"><br><br>
+        <label for="codigo">Codigo: </label><br>
+        <input id="codigo" type="number"><br><br>
+        <label for="cantidad">Cantidad: </label><br>
+        <input id="cantidad" type="number"><br><br>
+        <label for="precio">Precio: </label> <br>
+        <input id="precio" type="number"><br><br>
+        <label for="busqueda">Código para buscar/eliminar</label><br>
+        <input id="busqueda" type="number"><br><br><br>
+        <button id="listar">Listar (Actualizar)</button>
+        <button id="agregar">Añadir</button>
+        <button id="eliminar">Eliminar</button>
+        <button id="inverso">Listar Inverso</button>
+        <button id="buscar">Buscar</button>
+    </div>
+    <div id="lista"></div>
+    <script src="script.js"></script>
+</body>
+</html>
